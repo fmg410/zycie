@@ -1,0 +1,5 @@
+polecam kompilowac na ubuntu, tak jest najprosciej, potrzeba do tego zainstalowac SFML:
+sudo apt-get install libsfml-dev -y
+
+kompilacja:
+g++ $(echo *.cpp) -lsfml-graphics -lsfml-window -lsfml-system
